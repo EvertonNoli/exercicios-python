@@ -14,7 +14,7 @@ while True:
         pergunta = ' '
         while pergunta not in 'PI':
             pergunta = str(input('Você escolhe par ou ímpar?[P/I]')).upper().strip()[0]
-        computador = randint(1,10)
+        computador = randint(0,10)
         resultado = computador+usuario
         if resultado%2==0:
             print(f'Você jogou {usuario} e o computador {computador}! O resultado foi {resultado}! Deu par!')
